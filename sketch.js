@@ -1,15 +1,18 @@
-var song;
-
-let song;
+let mySound;
 function preload() {
-  song = loadSound(mysterious.mp3);
+  soundFormats('mp3');
+  mySound = loadSound(mysterious.mp3);
 }
 
 function setup() {
-  createCanvas(200, 200);
+  let cnv = createCanvas(100, 100);
   cnv.mousePressed(canvasPressed);
-  background(0);
-  text('tap here to play', 100, 100);
+  background(220);
+  text('tap here to play', 10, 20);
 }
 
-
+function canvasPressed() {
+  // playing a sound file on a user gesture
+  // is equivalent to `userStartAudio()`
+  mySound.play();
+}
