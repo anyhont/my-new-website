@@ -1,14 +1,11 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 </style>
-
-
-</head>
-<body>
-h1 {
-  color: blue;
 body {
   background-color: pink;
+}
+h1 {
+  color: blue;
 }
 
 font-family: Sacramento, cursive;
