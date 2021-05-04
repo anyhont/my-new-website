@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+</style>
+
 body {
   background-color: pink;
 }
@@ -5,8 +9,6 @@ h1 {
   color: blue;
 }
 
-<style>
-('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
 body {
@@ -15,3 +17,4 @@ body {
 </style>
 </head>
 <body>
+}
