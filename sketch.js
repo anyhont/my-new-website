@@ -9,7 +9,7 @@ function setup() {
   createCanvas(100, 100);
   cnv.mousePressed(canvasPressed);
   background(220);
-  text('tap here to play', 10, 20);
+  text('tap here to play', 100, 100);
 }
 
 
