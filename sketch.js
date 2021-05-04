@@ -6,9 +6,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(100, 100);
+  createCanvas(200, 200);
   cnv.mousePressed(canvasPressed);
-  background(220);
+  background(0);
   text('tap here to play', 100, 100);
 }
 
