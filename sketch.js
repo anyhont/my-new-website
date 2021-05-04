@@ -12,8 +12,4 @@ function setup() {
   text('tap here to play', 10, 20);
 }
 
-function canvasPressed() {
-  // playing a sound file on a user gesture
-  // is equivalent to `userStartAudio()`
-  mySound.play();
-}
+
