@@ -1,7 +1,7 @@
 let mySound;
 function preload() {
   soundFormats('mp3');
-  mySound = loadSound('162483__kastenfrosch__mysterious.mp3');
+  mySound = loadSound(162483__kastenfrosch__mysterious.mp3);
 }
 
 function setup() {
