@@ -1,4 +1,4 @@
-body
+<body>
 function setup() {
   createCanvas(400, 400);
 }
