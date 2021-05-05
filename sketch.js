@@ -1,4 +1,4 @@
-let mySound;
+
 function preload() {
   song = loadSound(mysterious.mp3);
 }
